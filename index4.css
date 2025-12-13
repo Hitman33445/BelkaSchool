@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #141414; /* Темный фон, как на изображении */
+    color: #fff;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Использование 100vh для занятия всей высоты экрана */
+    padding: 20px;
+}
+
+.menu-container {
+    display: flex;
+    flex-direction: column; /* Расположение кнопок друг под другом */
+    width: 100%; /* Занимает всю доступную ширину контейнера */
+    max-width: 500px; /* Ограничение ширины на больших экранах для лучшего вида */
+}
+
+.menu-button {
+    background-color: #333; /* Черный фон кнопок */
+    color: #fff;
+    padding: 20px;
+    margin-bottom: 20px; /* Отступ между кнопками */
+    border: 1px solid #333; /* Тонкая серая рамка */
+    border-radius: 50px; /* Скругленные углы */
+    text-align: center;
+    text-decoration: none; /* Убираем подчеркивание у ссылок */
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Плавное изменение цвета при наведении/нажатии */
+}
+
+.menu-button:hover,
+.menu-button:active {
+    background-color: #1a1a1a; /* Цвет фона при взаимодействии */
+}a{color: inherit; text-decoration: none;}
